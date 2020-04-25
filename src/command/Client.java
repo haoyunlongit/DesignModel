@@ -15,12 +15,10 @@ package command;
 
 public class Client {
     public static void main(String[] args) {
-        Receiver receiver = new ConcreteReceiver();
-
-        //
+        ConcreteReceiver receiver = new ConcreteReceiver();
         Command command = new TestCommand1(receiver);
 
-        //作为参数传给调用方
+        //调用方只需要和invoker 访问
         Invoker invoker = new Invoker();
         invoker.addCommand(command);
     }

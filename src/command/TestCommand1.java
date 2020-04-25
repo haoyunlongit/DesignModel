@@ -1,8 +1,8 @@
 package command;
 
 public class TestCommand1 implements Command {
-    private final Receiver mReceiver;
-    public TestCommand1(Receiver receiver) {
+    private final ConcreteReceiver mReceiver;
+    public TestCommand1(ConcreteReceiver receiver) {
         mReceiver = receiver;
     }
 
