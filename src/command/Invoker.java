@@ -1,5 +1,7 @@
 package command;
 
+import command.command.Command;
+
 import java.util.LinkedList;
 import java.util.List;
 

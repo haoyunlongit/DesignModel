@@ -1,5 +1,8 @@
 package command;
 
+import command.command.Command;
+import command.command.TestCommand1;
+
 /**
  * Command : 封装了被调用者以及被调用者的行为
  * invoker ：用来管理 Command的业务

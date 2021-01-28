@@ -1,4 +1,6 @@
-package command;
+package command.command;
+
+import command.Receiver;
 
 public class TestCommand1 implements Command {
     private final Receiver mReceiver;
