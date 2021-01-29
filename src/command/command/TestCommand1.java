@@ -1,5 +1,6 @@
 package command.command;
 
+import command.ConcreteReceiver;
 import command.Receiver;
 
 public class TestCommand1 implements Command {
