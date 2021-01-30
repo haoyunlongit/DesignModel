@@ -24,5 +24,6 @@ public class Client {
         //调用方只需要和invoker 访问
         Invoker invoker = new Invoker();
         invoker.addCommand(command);
+        invoker.doCommand();
     }
 }
